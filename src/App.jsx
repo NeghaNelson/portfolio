@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import heroImage from '../image1.jpeg';
 import snapshotImage from '../image2.jpeg';
-import resumePdf from './NeghaResume.pdf';
 import { 
   GitBranch, 
   Link,
@@ -74,7 +73,7 @@ const App = () => {
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 pt-6">
-            <a href={resumePdf} target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-all transform hover:-translate-y-1">
+            <a href="public/NeghaResume.pdf" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-all transform hover:-translate-y-1">
               <FileText size={20} />
               View Resume
             </a>
