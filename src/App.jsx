@@ -138,7 +138,7 @@ const App = () => {
             <div className="relative border-l-2 border-slate-800 pl-8 pb-8">
               <div className="absolute w-4 h-4 bg-blue-500 rounded-full -left-[9px] top-1 shadow-[0_0_10px_rgba(59,130,246,0.5)]"></div>
               <h3 className="text-2xl font-bold text-white">Software Intern</h3>
-              <h4 className="text-lg text-blue-400 font-medium mb-2">Redink solution</h4>
+              <h4 className="text-lg text-blue-400 font-medium mb-2">Redintek solution</h4>
               <p className="text-slate-500 font-mono text-sm mb-4">Aug 2024 — Mar 2025</p>
               
               <ul className="space-y-3 text-slate-300 list-disc list-inside marker:text-blue-500">
@@ -194,7 +194,7 @@ const App = () => {
               </a>
             </div>
             <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">RedBus Clone</h3>
-            <p className="text-slate-300 mb-6 line-clamp-3">A comprehensive bus booking application replicating core RedBus. Focuses on frontend using HTML and css</p>
+            <p className="text-slate-300 mb-6 line-clamp-3">A comprehensive bus booking application replicating core RedBus. Focuses on frontend using HTML and CSS</p>
             <div className="flex flex-wrap gap-2 text-xs font-mono">
               <span className="px-3 py-1 bg-slate-900 rounded-full text-slate-300">HTML</span>
               <span className="px-3 py-1 bg-slate-900 rounded-full text-slate-300">CSS</span>
@@ -212,7 +212,7 @@ const App = () => {
               </a>
             </div>
             <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-indigo-400 transition-colors">Diabetic Retinopathy Detection</h3>
-            <p className="text-slate-300 mb-6 line-clamp-3">An academic machine learning model designed to analyze retinal images and detect early signs of Diabetic Retinopathy. Focuses on crucial image preprocessing and binary/multi-class classification.</p>
+            <p className="text-slate-300 mb-6 line-clamp-3">An academic machine learning model designed to analyze retinal images and detect early signs of Diabetic Retinopathy.</p>
             <div className="flex flex-wrap gap-2 text-xs font-mono">
               <span className="px-3 py-1 bg-slate-900 rounded-full text-slate-300">Python</span>
               <span className="px-3 py-1 bg-slate-900 rounded-full text-slate-300">TensorFlow/Keras</span>
