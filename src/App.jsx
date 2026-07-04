@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import heroImage from '../image1.jpeg';
-import snapshotImage from '../image2.jpeg';
 import { 
   GitBranch, 
   Link,
@@ -73,20 +72,22 @@ const App = () => {
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 pt-6">
-            <a href="https://github.com/NeghaNelson" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-lg font-medium transition-all border border-slate-700 transform hover:-translate-y-1">
+            <a href="https://github.com/NeghaNelson" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-lg font-medium transition-all border border-slate-700">
               <GitBranch size={20} />
               GitHub
             </a>
-            <a href="https://www.linkedin.com/in/negha-nelson/" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-[#0A66C2] hover:bg-[#084e96] text-white px-6 py-3 rounded-lg font-medium transition-all transform hover:-translate-y-1">
+            <a href="https://www.linkedin.com/in/negha-nelson/" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-[#0A66C2] hover:bg-[#084e96] text-white px-6 py-3 rounded-lg font-medium transition-all">
               <Link size={20} />
               LinkedIn
+            </a>
+            <a href="/NeghaResume.pdf" download="NeghaResume.pdf" className="flex items-center gap-2 bg-blue-500 hover:bg-blue-400 text-white px-6 py-3 rounded-lg font-medium transition-all border border-blue-600">
+              <ExternalLink size={20} />
+              Resume
             </a>
           </div>
         </div>
 
-        <div className="absolute bottom-10 animate-bounce cursor-pointer text-slate-500 hover:text-blue-400 transition-colors" onClick={() => scrollTo('about')}>
-          <ChevronDown size={32} />
-        </div>
+        
       </section>
 
       {/* About Section */}
@@ -123,7 +124,7 @@ const App = () => {
 
 
       <section id="experience" className="py-24 px-6 max-w-6xl mx-auto">
-        <div className="grid gap-10 lg:grid-cols-[0.75fr_0.95fr] items-start">
+        <div className="grid gap-10 items-start">
           <div>
             <div className="flex items-center gap-4 mb-12">
               <Briefcase className="text-blue-500" size={32} />
@@ -143,10 +144,6 @@ const App = () => {
                 <li>Worked mainly on backend development using FastAPI and PostgreSQL.</li>
               </ul>
             </div>
-          </div>
-
-          <div className="relative mx-auto overflow-hidden border border-slate-700 shadow-2xl h-[520px] w-[520px] rounded-full">
-            <img src={snapshotImage} alt="Experience highlight" className="w-full h-full object-cover object-top transition-transform duration-700 hover:scale-105" />
           </div>
         </div>
       </section>
