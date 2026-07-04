@@ -17,6 +17,7 @@ import {
 
 const App = () => {
   const [activeSection, setActiveSection] = useState('home');
+  // Resume button removed
 
   // Smooth scroll function
   const scrollTo = (id) => {
