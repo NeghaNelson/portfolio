@@ -5,7 +5,6 @@ import {
   GitBranch, 
   Link,
   Mail, 
-  FileText, 
   Code2, 
   Briefcase, 
   GraduationCap, 
