@@ -73,10 +73,6 @@ const App = () => {
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 pt-6">
-            <a href="/portfolio/NeghaResume.pdf" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-all transform hover:-translate-y-1">
-              <FileText size={20} />
-              View Resume
-            </a>
             <a href="https://github.com/NeghaNelson" target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white px-6 py-3 rounded-lg font-medium transition-all border border-slate-700 transform hover:-translate-y-1">
               <GitBranch size={20} />
               GitHub
