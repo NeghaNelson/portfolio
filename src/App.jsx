@@ -80,7 +80,7 @@ const App = () => {
               <Link size={20} />
               LinkedIn
             </a>
-            <a href="/NeghaResume.pdf" download="NeghaResume.pdf" className="flex items-center gap-2 bg-blue-500 hover:bg-blue-400 text-white px-6 py-3 rounded-lg font-medium transition-all border border-blue-600">
+            <a href="/NeghaResume.pdf" download="c:\Users\91961\Downloads\NeghaNelson_resume.pdf" className="flex items-center gap-2 bg-blue-500 hover:bg-blue-400 text-white px-6 py-3 rounded-lg font-medium transition-all border border-blue-600">
               <ExternalLink size={20} />
               Resume
             </a>
