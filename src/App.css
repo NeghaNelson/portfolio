@@ -182,3 +182,48 @@
     border-right-color: var(--border);
   }
 }
+
+/* Hide default cursor and show custom cursor */
+* {
+  cursor: none;
+}
+
+input, textarea {
+  cursor: text;
+}
+
+/* Magnify effect on hover - text and elements enlarge */
+@keyframes magnify {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes magnify-large {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.15);
+  }
+}
+
+/* Apply magnify effect to all interactive elements */
+button:hover,
+a:hover,
+span:hover,
+p:hover {
+  animation: magnify 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+  animation: magnify-large 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
