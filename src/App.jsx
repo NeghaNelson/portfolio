@@ -80,7 +80,7 @@ const App = () => {
               <Link size={20} />
               LinkedIn
             </a>
-            <a href="/NeghaResume.pdf" download="NeghaResume.pdf" className="flex items-center gap-2 bg-blue-500 hover:bg-blue-400 text-white px-6 py-3 rounded-lg font-medium transition-all border border-blue-600">
+            <a href={`${import.meta.env.BASE_URL}NeghaNelson_resume.pdf`} target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-blue-500 hover:bg-blue-400 text-white px-6 py-3 rounded-lg font-medium transition-all border border-blue-600">
               <ExternalLink size={20} />
               Resume
             </a>
@@ -200,7 +200,7 @@ const App = () => {
               <div className="p-3 bg-indigo-500/10 rounded-lg text-indigo-400">
                 <Database size={24} />
               </div>
-              <a href="https://github.com/NeghaNelson/diabetic-retinopathy" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white transition-colors">
+              <a href="https://github.com/NeghaNelson/diabetic_retinopathy" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white transition-colors">
                 <ExternalLink size={20} />
               </a>
             </div>
