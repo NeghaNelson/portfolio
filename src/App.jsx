@@ -80,6 +80,7 @@ const App = () => {
               <Link size={20} />
               LinkedIn
             </a>
+<<<<<<< HEAD
             <a href={`${import.meta.env.BASE_URL}NeghaNelson_resume.pdf`} target="_blank" rel="noreferrer" className="flex items-center gap-2 bg-blue-500 hover:bg-blue-400 text-white px-6 py-3 rounded-lg font-medium transition-all border border-blue-600">
               <ExternalLink size={20} />
               Resume
